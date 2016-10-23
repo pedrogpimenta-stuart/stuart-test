@@ -1,8 +1,13 @@
 ## Synopsis
 
-Pedro Pimenta's simple website bootstrapper.
+Pedro Pimenta's front-end test project for Stuart.
 
-Very very simple: Gulp for tasks, SASS for CSS compiling and Metalsmith for HTML building.
+## Installation
+
+- Install Node: [https://nodejs.org/](https://nodejs.org/)
+- Then do `npm install` on the project's folder, it installs everything you need based on `package.json`
+- Run `gulp`.
+- That's it :)
 
 ## Tech stack
 
@@ -27,14 +32,3 @@ Very very simple: Gulp for tasks, SASS for CSS compiling and Metalsmith for HTML
   - `gulp-autoprefixer` to forget about vendor prefixes
 - CSS
   - `normalize.css` to normalize styles between browsers
-
-## Installation
-
-- Install Node: [https://nodejs.org/](https://nodejs.org/)
-- Then do `npm install` on the project's folder, it installs everything you need based on `package.json`
-- Run `gulp`.
-- That's it :)
-
-## License
-
-I don't care; CC0-1.0.

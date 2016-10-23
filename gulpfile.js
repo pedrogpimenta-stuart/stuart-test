@@ -88,7 +88,7 @@ gulp.task('sass', function() {
       cascade: false
     }))
     // .pipe(csso()) // Minify CSS
-    .pipe(gulp.dest('build/assets/css'))
+    .pipe(gulp.dest('../pedrogpimenta-stuart.github.io/assets/css'))
     .pipe(browserSync.stream()); // Send changes to BrowserSync
 });
 
